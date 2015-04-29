@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (JSONString)
+/**
+ *  将字典转为普通的String
+ *
+ *  @return <#return value description#>
+ */
 -(NSString *)JSONString;
 @end

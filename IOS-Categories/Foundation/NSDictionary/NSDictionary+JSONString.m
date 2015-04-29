@@ -9,6 +9,7 @@
 #import "NSDictionary+JSONString.h"
 
 @implementation NSDictionary (JSONString)
+
 -(NSString *)JSONString{
     NSError *error = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self

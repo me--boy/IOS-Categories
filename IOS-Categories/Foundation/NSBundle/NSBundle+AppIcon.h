@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface NSBundle (AppIcon)
+/**
+ *  获取APP的icon的路径
+ */
 - (NSString*)appIconPath ;
+/**
+ *  返回APP的icon的image对象
+ */
 - (UIImage*)appIcon ;
 @end
